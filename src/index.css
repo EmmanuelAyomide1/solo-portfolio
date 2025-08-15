@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Cabinet Grotesk';
+  src: url('./assets/fonts/CabinetGrotesk-Variable.woff2') format('woff2'),
+  url('./assets/fonts/CabinetGrotesk-Variable.woff') format('woff');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@theme{
+  --color-primary-blue: #1572D3;
+  --color-primary-blue-100: #1572D31A;
+  --breakpoint-cmd: 845px;
+}
+
+:root{
+  --default-font-family: "Cabinet Grotesk";
+}
