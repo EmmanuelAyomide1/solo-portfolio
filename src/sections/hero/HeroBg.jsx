@@ -1,4 +1,4 @@
-function HomeBg() {
+function HeroBg() {
   return (
     <div className="absolute -z-1 h-200 w-dvw overflow-x-clip md:-top-15 md:right-0 md:h-250 md:overflow-y-visible">
       <svg
@@ -21,4 +21,4 @@ function HomeBg() {
   );
 }
 
-export default HomeBg;
+export default HeroBg;

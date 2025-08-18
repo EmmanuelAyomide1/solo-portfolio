@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar";
 import Footer from "./sections/Footer";
-import Home from "./sections/Home";
-import Services from "./sections/Services";
+import Hero from "./sections/hero/Hero";
+import Services from "./sections/services/Services";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <div className="relative flex justify-center">
         <Navbar className="px-5 md:px-20" />
       </div>
-      <Home />
+      <Hero />
       <Services />
       <Footer />
     </div>

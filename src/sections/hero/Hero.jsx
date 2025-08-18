@@ -1,9 +1,8 @@
-import Navbar from "../components/Navbar";
-import ButtomRightCircles from "../components/ButtomRightCircle";
-import Left from "../components/home/Left";
-import Right from "../components/home/Right";
+import ButtomRightCircles from "../../components/ButtomRightCircle";
+import Left from "./Left";
+import Right from "./Right";
 
-function Home() {
+function Hero() {
   return (
     <div className="relative flex justify-center">
       <div className="cmd:h-[calc(100dvh-44px)] flex w-full max-w-[1100px] flex-col overflow-clip px-5 md:max-h-[620px] md:px-20">
@@ -17,4 +16,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Hero;
