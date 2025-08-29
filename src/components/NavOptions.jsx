@@ -1,8 +1,10 @@
 import NavOption from "./NavOption";
 
-function NavOptions() {
+function NavOptions({ className }) {
   return (
-    <ul className="cmd:flex hidden w-100 items-center justify-between">
+    <ul
+      className={`${className ? className : "cmd:flex hidden w-100 items-center justify-between"} `}
+    >
       <NavOption text="Hero" />
       <NavOption text="Service" />
       <NavOption text="About" />
