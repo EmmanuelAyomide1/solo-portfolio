@@ -10,7 +10,7 @@ function Right() {
         <img
           src={person}
           alt="person"
-          className="mt-2 h-full w-auto object-contain"
+          className="mt-2 h-full w-full object-contain md:w-auto"
         />
       </div>
       <div className="absolute left-1/2 w-full max-w-[910px] -translate-x-1/2">
