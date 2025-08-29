@@ -4,10 +4,9 @@ import Menu from "./Menu";
 import NavOptions from "./NavOptions";
 
 function Navbar({ className }) {
-
   return (
     <div
-      className={`fixed z-2 flex h-7 w-full max-w-[1100px] items-center justify-between md:static md:z-0 md:mt-4 md:h-10 md:bg-transparent ${className ? className : ""}`}
+      className={`fixed z-50 flex h-7 w-full max-w-[1100px] items-center justify-between md:static md:z-0 md:mt-4 md:h-10 md:bg-transparent ${className ? className : ""}`}
     >
       <Logo />
       <NavOptions />
