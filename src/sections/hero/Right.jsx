@@ -4,7 +4,7 @@ import HeroBg from "./HeroBg";
 
 function Right() {
   return (
-    <div className="flex min-h-1/2 justify-center md:h-full md:w-1/2">
+    <div className="flex h-fit justify-center md:h-full md:w-1/2">
       <HeroBg />
       <div className="bg-[url('assets/star4.svg'),url('assets/star4.svg'),url('assets/shout.svg')] bg-[length:20px,10px,30px] bg-[position:85%_30%,0%_60%,0%_30%] bg-no-repeat px-5 md:bg-[length:20px,10px,60px] md:bg-[position:85%_30%,0%_60%,0%_30%]">
         <img
