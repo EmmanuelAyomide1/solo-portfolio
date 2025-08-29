@@ -1,7 +1,37 @@
+import { useState } from "react";
+
 function Menu() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  function handleClick() {
+    setIsOpen((cur) => !cur);
+  }
+
+  if (isOpen) {
+    return (
+      <svg
+        onClick={handleClick}
+        className="cmd:hidden h-full"
+        xmlns="http://www.w3.org/2000/svg"
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        fill="none"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M19.9175 1.83415L18.0834 0L9.95875 8.1375L1.83415 0L0 1.83415L8.1375 9.95875L0 18.0834L1.83415 19.9175L9.95875 11.78L18.0834 19.9175L19.9175 18.0834L11.78 9.95875L19.9175 1.83415Z"
+          fill="black"
+        />
+      </svg>
+    );
+  }
+
   return (
     <svg
       className="cmd:hidden h-full"
+      onClick={handleClick}
       xmlns="http://www.w3.org/2000/svg"
       width="32"
       height="32"

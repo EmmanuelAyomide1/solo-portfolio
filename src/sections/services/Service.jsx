@@ -1,29 +1,34 @@
-function Service({ picUrl }) {
+function Service({ picUrl, serviceText }) {
   return (
-    <div className="relative h-70 w-67.5 scale-100 transform">
+    <div className="relative h-88 w-67.5 scale-100 transform">
       <div
         style={{
           backgroundImage: `url(${picUrl})`,
           clipPath:
             "path('M 0 20 A 20,20 0,0,1 20,0 L 250 0 A 20,20 0,0,1 270,20 L 270,110 A 20,20 0,0,1 250,130 L 240,130 A 50,50 0,0,0 190,180 L 190,200 A 20,20 0,0,1 170,220 L 20,220 A 20,20 0,0,1 0,200 Z')",
         }}
-        className="absolute top-16 h-60 w-70 bg-cover"
+        className="absolute top-33 h-60 w-70 bg-cover"
       ></div>
       <div
         style={{
           clipPath:
             "path('M 0 20 A 20,20 0,0,1 20,0 L 250 0 A 20,20 0,0,1 270,20 L 270,110 A 20,20 0,0,1 250,130 L 240,130 A 50,50 0,0,0 190,180 L 190,200 A 20,20 0,0,1 170,220 L 20,220 A 20,20 0,0,1 0,200 Z')",
         }}
-        className="absolute top-13 -z-1 h-60 w-70 scale-x-90 transform bg-[#9E9D9D]"
+        className="absolute top-30 -z-1 h-60 w-70 scale-x-90 transform bg-[#9E9D9D]"
       ></div>
       <div
         style={{
           clipPath:
             "path('M 0 20 A 20,20 0,0,1 20,0 L 250 0 A 20,20 0,0,1 270,20 L 270,110 A 20,20 0,0,1 250,130 L 240,130 A 50,50 0,0,0 190,180 L 190,200 A 20,20 0,0,1 170,220 L 20,220 A 20,20 0,0,1 0,200 Z')",
         }}
-        className="absolute top-10 -z-2 h-60 w-70 scale-x-80 transform bg-[#757575a5]"
+        className="absolute top-27 -z-2 h-60 w-70 scale-x-80 transform bg-[#757575a5]"
       ></div>
-      <button className="absolute top-52 left-50 flex h-18 w-18 items-center justify-center rounded-full bg-white">
+      <div className="h-60 w-[270px] rounded-[20px] border-2 border-[#F9FAFB4D] bg-[#68686833]">
+        <p className="w-full border-b-2 border-[#F9FAFB4D] p-5 text-2xl">
+          {serviceText}
+        </p>
+      </div>
+      <button className="absolute top-69 left-50 flex h-18 w-18 items-center justify-center rounded-full bg-white">
         <svg
           className="h-10"
           xmlns="http://www.w3.org/2000/svg"
