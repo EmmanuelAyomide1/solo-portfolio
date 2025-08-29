@@ -1,7 +1,7 @@
 function Button({ children, className }) {
   return (
     <button
-      className={`rounded-full px-8 py-2 text-xs font-light md:text-sm ${className ? className : ""}`}
+      className={`rounded-full px-8 py-2 text-xs font-light hover:bg-black hover:text-white md:text-sm ${className ? className : ""}`}
     >
       {children}
     </button>
