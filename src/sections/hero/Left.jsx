@@ -1,7 +1,14 @@
+import { sendWhatsappMessage } from "../../../utils";
 import Button from "../../components/Button";
 import Experience from "./Experience";
 
 function Left() {
+  function handleClick() {
+    sendWhatsappMessage(
+      "Hi Great Solomon, I saw your portfolio and I would like to [purpose]",
+    );
+  }
+
   return (
     <div className="mt-5 flex max-h-1/2 flex-col space-y-4 md:mt-0 md:h-full md:max-h-full md:w-1/2 md:space-y-8 md:pt-10">
       <div className="bg-primary-blue-100 flex w-30 items-center justify-center space-x-2 rounded-full py-2 md:w-45 md:text-xs">
@@ -36,7 +43,10 @@ function Left() {
           design and UI/UX design.{" "}
         </p>
         <div className="flex w-full justify-between">
-          <Button className="bg-primary-blue h-fit text-white">
+          <Button
+            handleClick={handleClick}
+            className="bg-primary-blue h-fit text-white"
+          >
             Send a Dm
           </Button>
           <Experience className="md:hidden" />

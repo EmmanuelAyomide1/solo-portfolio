@@ -2,7 +2,10 @@ import Button from "../../components/Button";
 
 function WorkExp() {
   return (
-    <div className="relative flex justify-center bg-white p-5 md:p-10 md:pb-0">
+    <section
+      id="Experience"
+      className="relative flex justify-center bg-white p-5 md:p-10 md:pb-0"
+    >
       <div className="flex w-full max-w-[1100px] flex-col space-y-5 overflow-clip bg-[url('assets/experience.svg')] bg-[length:90px_auto] bg-[position:top_right] bg-no-repeat text-white md:space-y-10 md:bg-[length:120px_auto] md:bg-[position:35%_0%] md:px-20 md:py-7">
         <div className="items-left flex flex-col text-black md:flex-row md:items-center md:justify-between">
           <p className="w-fit py-3 text-4xl font-bold">
@@ -113,7 +116,7 @@ function WorkExp() {
         </div>
         <Button className="bg-primary-blue mx-auto w-fit">See All</Button>
       </div>
-    </div>
+    </section>
   );
 }
 

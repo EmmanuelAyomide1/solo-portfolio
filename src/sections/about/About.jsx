@@ -1,10 +1,18 @@
+import { sendWhatsappMessage } from "../../../utils";
 import microsoft from "../../assets/microsoft.png";
 import Button from "../../components/Button";
 import Logo from "./Logo";
 
 function About() {
+  function handleClick() {
+    sendWhatsappMessage("Hi Great, I saw your Portfolio");
+  }
+
   return (
-    <div className="relative flex justify-center bg-white py-5 md:py-10">
+    <section
+      id="About"
+      className="relative flex justify-center bg-white py-5 md:py-10"
+    >
       <div className="flex w-full max-w-[1100px] flex-col space-y-8 overflow-visible pb-3 text-white md:space-y-15 md:px-20 md:py-7">
         <div className="flex h-full flex-col-reverse justify-between md:flex-row md:gap-5">
           <div className="flex md:w-7/13">
@@ -135,14 +143,16 @@ function About() {
                       </svg>
                     </Logo>
                   </ul>
-                  <Button className="border py-5">Contact Me</Button>
+                  <Button handleClick={handleClick} className="border py-5">
+                    Contact Me
+                  </Button>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

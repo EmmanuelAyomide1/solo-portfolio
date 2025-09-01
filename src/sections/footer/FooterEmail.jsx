@@ -1,13 +1,26 @@
+import { useState } from "react";
 import Button from "../../components/Button";
+import { sendMail } from "../../../utils";
 
 function FooterEmail() {
+  const [email, setEmail] = useState("");
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    sendMail(email);
+    setEmail("");
+  }
+
   return (
     <div className="max-w-120 space-y-4">
       <p className="px-5 text-center text-3xl font-bold md:text-4xl">
         Have an Awesome Project Idea?{" "}
         <span className="text-primary-blue">Let's Discuss</span>
       </p>
-      <div className="border-primary-gray flex h-14 w-full justify-between rounded-full border-2 p-2">
+      <form
+        onSubmit={handleSubmit}
+        className="border-primary-gray flex h-14 w-full justify-between rounded-full border-2 p-2"
+      >
         <div className="bg-primary-blue-100 rounded-full p-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -24,13 +37,15 @@ function FooterEmail() {
         </div>
         <input
           className="w-full px-4 outline-0 placeholder:text-black"
-          type="email"
+          type="text"
           name="email"
           id="email"
-          placeholder="Enter Email Address"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          placeholder="Enter Email Message"
         />
         <Button className="bg-primary-blue h-full text-white">Send</Button>
-      </div>
+      </form>
     </div>
   );
 }

@@ -4,7 +4,7 @@ import Right from "./Right";
 
 function Hero() {
   return (
-    <div className="relative flex justify-center">
+    <section id="Hero" className="relative flex justify-center">
       <div className="flex w-full max-w-[1100px] flex-col overflow-clip px-5 md:h-[calc(dvh-44px)] md:max-h-[620px] md:px-20">
         <div className="flex h-full flex-col justify-between md:flex-row md:pt-10">
           <Left />
@@ -12,7 +12,7 @@ function Hero() {
         </div>
         <ButtomRightCircles amount={6} />
       </div>
-    </div>
+    </section>
   );
 }
 
