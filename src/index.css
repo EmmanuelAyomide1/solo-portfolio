@@ -9,6 +9,10 @@
   font-style: normal;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @theme{
   --color-primary-blue: #1572D3;
   --color-primary-blue-100: #1572D31A;
