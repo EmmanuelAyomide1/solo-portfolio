@@ -9,7 +9,10 @@ function Portfolio() {
   const pages = 1;
 
   return (
-    <section className="relative flex justify-center bg-[#001528] p-5 md:p-10">
+    <section
+      id="Portfolio"
+      className="relative flex justify-center bg-[#001528] p-5 md:p-10"
+    >
       <div className="flex w-full max-w-[1100px] flex-col space-y-5 overflow-clip pb-3 text-white md:px-20 md:py-7">
         <div className="flex justify-center">
           <p className="w-fit p-3 text-4xl font-bold">

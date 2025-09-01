@@ -51,7 +51,10 @@ function Menu() {
             fill="black"
           />
         </svg>
-        <NavOptions className={"flex flex-col gap-2"} />
+        <NavOptions
+          onClick={() => setIsOpen(false)}
+          className={"flex flex-col gap-2"}
+        />
       </div>
     </>
   );
