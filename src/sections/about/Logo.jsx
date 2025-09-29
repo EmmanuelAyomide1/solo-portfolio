@@ -1,9 +1,15 @@
-function Logo({ children, className }) {
+function Logo({ children, className, link }) {
   return (
     <li
-      className={`bg-primary-blue flex h-8 w-8 items-center justify-center rounded-full p-2 ${className ? className : ""}`}
+      className={`bg-primary-blue h-8 w-8 rounded-full p-2 ${className ? className : ""}`}
     >
-      {children}
+      <a
+        href={link}
+        target="_blank"
+        className="flex h-full w-full items-center justify-center"
+      >
+        {children}
+      </a>
     </li>
   );
 }

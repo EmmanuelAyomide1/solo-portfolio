@@ -1,4 +1,6 @@
 import Button from "../../components/Button";
+import ExpItem from "./ExpItem";
+import ExpList from "./ExpList";
 
 function WorkExp() {
   return (
@@ -20,100 +22,7 @@ function WorkExp() {
             graphics that stick in their minds.
           </p>
         </div>
-        <div className="flex flex-col items-center">
-          <div className="flex w-full justify-between text-black">
-            <div className="w-2/5">
-              <p className="text-xl font-semibold md:text-2xl md:font-bold">
-                SystemTech
-              </p>
-              <p className="text-xs md:text-[16px]">Feb 2024- Jan 2025</p>
-            </div>
-            <div className="flex flex-col items-center justify-center">
-              <div className="flex h-4 w-4 items-center justify-center rounded-full border-1 border-dashed md:h-5 md:w-5">
-                <div className="bg-primary-blue h-3 w-3 rounded-full md:h-4 md:w-4"></div>
-              </div>
-              <div className="h-[calc(100%-20px)] w-0 border-l-1 border-dashed"></div>
-            </div>
-            <div className="w-45 md:w-2/5">
-              <p className="text-xl font-semibold md:text-2xl md:font-bold">
-                UI/UX Designer
-              </p>
-              <p className="pb-5 text-[10px] md:text-sm">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                lacus nunc, posuere in justo vulputate, bibendum sodales{" "}
-              </p>
-            </div>
-          </div>
-          <div className="flex w-full justify-between text-black">
-            <div className="w-2/5">
-              <p className="text-xl font-semibold md:text-2xl md:font-bold">
-                Progfams Tech
-              </p>
-              <p className="text-xs md:text-[16px]">Feb 2024- Jan 2025</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <div className="flex h-4 w-4 items-center justify-center rounded-full border-1 border-dashed md:h-5 md:w-5">
-                <div className="h-3 w-3 rounded-full bg-black md:h-4 md:w-4"></div>
-              </div>
-              <div className="h-[calc(100%-20px)] w-0 border-l-1 border-dashed"></div>
-            </div>
-            <div className="w-45 md:w-2/5">
-              <p className="text-xl font-semibold md:text-2xl md:font-bold">
-                UI/UX Designer
-              </p>
-              <p className="pb-5 text-[10px] md:text-sm">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                lacus nunc, posuere in justo vulputate, bibendum sodales{" "}
-              </p>
-            </div>
-          </div>
-          <div className="flex w-full justify-between text-black">
-            <div className="w-2/5">
-              <p className="text-xl font-semibold md:text-2xl md:font-bold">
-                Progfams Tech
-              </p>
-              <p className="text-xs md:text-[16px]">Feb 2024- Jan 2025</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <div className="flex h-4 w-4 items-center justify-center rounded-full border-1 border-dashed md:h-5 md:w-5">
-                <div className="bg-primary-blue h-3 w-3 rounded-full md:h-4 md:w-4"></div>
-              </div>
-              <div className="h-[calc(100%-20px)] w-0 border-l-1 border-dashed"></div>
-            </div>
-            <div className="w-45 md:w-2/5">
-              <p className="text-xl font-semibold md:text-2xl md:font-bold">
-                UI/UX Designer
-              </p>
-              <p className="pb-5 text-[10px] md:text-sm">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                lacus nunc, posuere in justo vulputate, bibendum sodales{" "}
-              </p>
-            </div>
-          </div>
-          <div className="flex w-full justify-between text-black">
-            <div className="w-2/5">
-              <p className="text-xl font-semibold md:text-2xl md:font-bold">
-                Progfams Tech
-              </p>
-              <p className="text-xs md:text-[16px]">Feb 2024- Jan 2025</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <div className="flex h-4 w-4 items-center justify-center rounded-full border-1 border-dashed md:h-5 md:w-5">
-                <div className="h-3 w-3 rounded-full bg-black md:h-4 md:w-4"></div>
-              </div>
-              <div className="hidden h-[calc(100%-20px)] w-0 border-l-1 border-dashed"></div>
-            </div>
-            <div className="w-45 md:w-2/5">
-              <p className="text-xl font-semibold md:text-2xl md:font-bold">
-                UI/UX Designer
-              </p>
-              <p className="pb-5 text-[10px] md:text-sm">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                lacus nunc, posuere in justo vulputate, bibendum sodales{" "}
-              </p>
-            </div>
-          </div>
-        </div>
+        <ExpList />
         <Button className="bg-primary-blue mx-auto w-fit">See All</Button>
       </div>
     </section>
