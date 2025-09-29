@@ -2,7 +2,7 @@ import { useState } from "react";
 import Skill from "./Skill";
 
 function SkillList({ className }) {
-  const [active, setActive] = useState(4);
+  const [active, setActive] = useState(null);
 
   return (
     <div
