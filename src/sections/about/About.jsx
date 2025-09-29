@@ -16,14 +16,14 @@ function About() {
         <div className="flex h-full flex-col-reverse justify-between md:flex-row md:gap-5 xl:gap-10">
           <div className="flex md:w-7/13">
             <div className="relative flex w-full justify-center">
-              <div className="z-2 aspect-1/1 h-95 w-full bg-[url('assets/person2.png'),url('assets/person2bg.png'),url('assets/person2bg2.png')] bg-[length:auto_95%,auto_80%,auto_100%] bg-[position:bottom,bottom,center_15px] bg-no-repeat"></div>
+              <div className="z-2 aspect-1/1 h-95 w-full bg-[url('/assets/person2.png'),url('/assets/person2bg.png'),url('/assets/person2bg2.png')] bg-[length:auto_95%,auto_80%,auto_100%] bg-[position:bottom,bottom,center_15px] bg-no-repeat"></div>
             </div>
           </div>
           <div className="md:w-6/13">
             <div className="flex flex-col items-center text-black md:items-start md:justify-between">
               <p className="w-fit py-3 text-4xl font-bold">
                 About{" "}
-                <span className="text-primary-blue bg-[url('assets/star4LowOpacity.svg')] bg-[length:20px_auto] bg-[position:top_right] bg-no-repeat pr-5">
+                <span className="text-primary-blue bg-[url('/assets/star4LowOpacity.svg')] bg-[length:20px_auto] bg-[position:top_right] bg-no-repeat pr-5">
                   Me
                 </span>
               </p>
@@ -34,7 +34,7 @@ function About() {
                 </div>
                 <div className="flex w-fit">
                   <img
-                    src="assets/microsoft.png"
+                    src="/assets/microsoft.png"
                     className="h-10 w-10"
                     alt=""
                   />

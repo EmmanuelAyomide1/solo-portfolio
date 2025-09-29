@@ -10,17 +10,17 @@ function ServiceList() {
       <ul className="flex w-full flex-col items-center space-y-8 md:mt-0 md:flex-row md:justify-between md:space-y-0">
         <Service
           key={1}
-          picUrl="assets/service1.jpg"
+          picUrl="/assets/service1.jpg"
           serviceText="UI/UX Design"
         />
         <Service
           key={2}
-          picUrl="assets/service3.png"
+          picUrl="/assets/service3.png"
           serviceText="Web Design"
         />
         <Service
           key={3}
-          picUrl="assets/service2.png"
+          picUrl="/assets/service2.png"
           serviceText="Graphics Design"
         />
       </ul>

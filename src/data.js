@@ -32,25 +32,25 @@ const experiences = [
 const projects = [
   {
     text: "Flyer Design",
-    image: "assets/portfolio1.png",
+    image: "/assets/portfolio1.png",
     description:
       "Vibrant event flyer design for Adeleke University KLEOS Graduating Class '25 Jersey Festival. Features bold typography, dynamic geometric patterns, and energetic color palette designed to capture attention and drive event attendance.",
   },
   {
     text: "Web Design",
-    image: "assets/portfolio2.png",
+    image: "/assets/portfolio2.png",
     description:
       "Modern e-commerce website design featuring intuitive navigation, category browsing, and promotional banners. Clean interface showcasing 'Unbeatable Deals, Endless Choices' with product displays and user-friendly shopping experience optimized for conversions.",
   },
   {
     text: "Product Design",
-    image: "assets/portfolio3.png",
+    image: "/assets/portfolio3.png",
     description:
       "Sleek UI design for SendNow chat application featuring a clean chat interface, contact list sidebar, and intuitive messaging system. Focused on delivering instant, secure communication with modern design principles and smooth user interactions.",
   },
   {
     text: "Landing Page",
-    image: "assets/portfolio4.png",
+    image: "/assets/portfolio4.png",
     description:
       "Engaging landing page design introducing SendNow's instant and secure chat platform. Features compelling hero section, clear value proposition, and modern glassmorphism effects that capture attention while communicating the product's core benefits effectively.",
   },
