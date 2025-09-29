@@ -19,7 +19,9 @@ function ExpItem({ job }) {
         <p className="text-xl font-semibold md:text-2xl md:font-bold">
           {jobTitle}
         </p>
-        <p className="pb-5 text-[10px] md:text-sm">{jobDescription}</p>
+        <p className="pb-5 text-justify text-[10px] md:text-sm">
+          {jobDescription}
+        </p>
       </div>
     </div>
   );
