@@ -17,31 +17,6 @@ function About() {
         <div className="flex h-full flex-col-reverse justify-between md:flex-row md:gap-5">
           <div className="flex md:w-7/13">
             <div className="relative flex w-full justify-center">
-              {/* <div className="absolute bottom-0 h-90 w-120"> */}
-              {/* <svg
-                  className="h-full w-fit"
-                  width="643"
-                  height="458"
-                  viewBox="0 0 643 458"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M344.561 332.001L344.561 439.184L108.541 439.184L108.541 332.001L203.274 332.001L131.818 279.492C116.3 267.943 108.541 252.245 108.541 232.396L108.541 94.3571C108.541 75.5911 115.218 59.5317 128.57 46.1789C141.923 32.8261 157.983 26.1497 176.749 26.1497L251.993 26.1497C268.955 26.1497 284.112 31.2021 297.465 41.3069L455.533 158.234C465.638 165.452 473.397 174.474 478.81 185.3C484.224 196.488 486.93 208.217 486.93 220.487L486.93 405.621L394.904 405.621L394.904 137.663L388.95 133.333L200.567 133.333L200.567 306.017L235.754 332.001L344.561 332.001Z"
-                    fill="#1572D3"
-                    fill-opacity="0.15"
-                  />
-                  <rect
-                    x="432.945"
-                    width="209.857"
-                    height="119.918"
-                    rx="59.9591"
-                    fill="#1572D3"
-                    fill-opacity="0.15"
-                  />
-                </svg> */}
-              {/* <img src={person2bg2} alt="" className="h-full w-full" /> */}
-              {/* </div> */}
               <div className="z-2 aspect-1/1 h-95 w-full bg-[url('assets/person2.png'),url('assets/person2bg.png'),url('assets/person2bg2.png')] bg-[length:auto_95%,auto_80%,auto_100%] bg-[position:bottom,bottom,center_15px] bg-no-repeat"></div>
             </div>
           </div>
@@ -76,7 +51,7 @@ function About() {
                 </p>
                 <div className="flex items-center justify-between">
                   <ul className="flex gap-x-2">
-                    <Logo>
+                    <Logo link="https://www.instagram.com/great_solo1">
                       <svg
                         className="h-auto w-full"
                         xmlns="http://www.w3.org/2000/svg"
@@ -91,7 +66,7 @@ function About() {
                         />
                       </svg>
                     </Logo>
-                    <Logo>
+                    <Logo link="#">
                       <svg
                         className="h-auto w-full"
                         xmlns="http://www.w3.org/2000/svg"
@@ -106,7 +81,7 @@ function About() {
                         />
                       </svg>
                     </Logo>
-                    <Logo>
+                    <Logo link="https://x.com/greatsolomon11">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="19"
@@ -120,7 +95,7 @@ function About() {
                         />
                       </svg>
                     </Logo>
-                    <Logo>
+                    <Logo link="https://www.linkedin.com/in/great-solomon-53b32526a">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="18"
