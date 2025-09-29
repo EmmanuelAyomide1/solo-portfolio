@@ -1,6 +1,6 @@
 function Top() {
   return (
-    <div className="flex flex-col items-center md:flex-row md:justify-between">
+    <div className="flex transform flex-col items-center md:flex-row md:justify-between xl:scale-x-108">
       <p className="w-fit p-3 text-4xl font-bold">
         My <span className="text-primary-blue"> Services </span>
       </p>

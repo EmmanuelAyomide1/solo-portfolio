@@ -1,6 +1,6 @@
 function Service({ picUrl, serviceText }) {
   return (
-    <div className="group relative h-88 w-67.5 scale-100 transform">
+    <div className="group relative h-88 w-67.5 scale-100 transform xl:scale-120">
       <div
         style={{
           // backgroundImage: `url(${picUrl})`,

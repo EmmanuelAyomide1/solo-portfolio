@@ -9,7 +9,7 @@ function ServiceList() {
   const [active, setActive] = useState(0);
 
   return (
-    <div className="flex flex-col items-center space-y-7">
+    <div className="flex flex-col items-center space-y-7 xl:space-y-27">
       <ul className="flex w-full flex-col items-center space-y-8 md:mt-0 md:flex-row md:justify-between md:space-y-0">
         <Service key={1} picUrl={service1} serviceText="UI/UX Design" />
         <Service key={2} picUrl={service3} serviceText="Web Design" />

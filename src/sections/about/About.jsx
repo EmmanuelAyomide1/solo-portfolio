@@ -13,8 +13,8 @@ function About() {
       id="About"
       className="relative flex justify-center bg-white py-5 md:py-10"
     >
-      <div className="flex w-full max-w-[1100px] flex-col space-y-8 overflow-visible pb-3 text-white md:space-y-15 md:px-20 md:py-7">
-        <div className="flex h-full flex-col-reverse justify-between md:flex-row md:gap-5">
+      <div className="flex w-full max-w-[1300px] flex-col space-y-8 overflow-visible pb-3 text-white md:space-y-15 md:px-20 md:py-7 xl:px-0">
+        <div className="flex h-full flex-col-reverse justify-between md:flex-row md:gap-5 xl:gap-10">
           <div className="flex md:w-7/13">
             <div className="relative flex w-full justify-center">
               <div className="z-2 aspect-1/1 h-95 w-full bg-[url('assets/person2.png'),url('assets/person2bg.png'),url('assets/person2bg2.png')] bg-[length:auto_95%,auto_80%,auto_100%] bg-[position:bottom,bottom,center_15px] bg-no-repeat"></div>
