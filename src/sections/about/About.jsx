@@ -1,5 +1,4 @@
 import { sendWhatsappMessage } from "../../../utils";
-import microsoft from "../../assets/microsoft.png";
 import Button from "../../components/Button";
 import Logo from "./Logo";
 
@@ -34,7 +33,11 @@ function About() {
                   <p className="text-sm">Computer Science 2022 - 2025</p>
                 </div>
                 <div className="flex w-fit">
-                  <img src={microsoft} className="h-10 w-10" alt="" />
+                  <img
+                    src="assets/microsoft.png"
+                    className="h-10 w-10"
+                    alt=""
+                  />
                   <div>
                     <p className="font-bold">Microsoft</p>
                     <p className="text-sm">Microsoft Office Scientist</p>

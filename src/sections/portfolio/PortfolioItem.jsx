@@ -3,7 +3,7 @@ function PortfolioItem({ project }) {
   return (
     <div
       style={{
-        backgroundImage: `linear-gradient(207deg,rgba(0,0,0,0) 47.41%,rgba(0,0,0,0.36) 76.39%,rgba(0,0,0,0.5) 89.23%), url('src/${image}')`,
+        backgroundImage: `linear-gradient(207deg,rgba(0,0,0,0) 47.41%,rgba(0,0,0,0.36) 76.39%,rgba(0,0,0,0.5) 89.23%), url('${image}')`,
       }}
       className="group relative flex aspect-[3/2] w-full flex-col items-end justify-between rounded-xl bg-cover p-3"
     >
