@@ -1,7 +1,8 @@
 function PortfolioItem({ project }) {
-  const { text, image, description } = project;
+  const { text, image, description, link } = project;
   return (
-    <div
+    <a
+      href={link}
       style={{
         backgroundImage: `linear-gradient(207deg,rgba(0,0,0,0) 47.41%,rgba(0,0,0,0.36) 76.39%,rgba(0,0,0,0.5) 89.23%), url('${image}')`,
       }}
@@ -36,7 +37,7 @@ function PortfolioItem({ project }) {
           {description}
         </p>
       </div>
-    </div>
+    </a>
   );
 }
 

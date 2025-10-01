@@ -33,26 +33,30 @@ const projects = [
   {
     text: "Flyer Design",
     image: "/assets/portfolio1.png",
+    link: "https://www.behance.net/gallery/234058469/Social-Media-designs",
     description:
-      "Vibrant event flyer design for Adeleke University KLEOS Graduating Class '25 Jersey Festival. Features bold typography, dynamic geometric patterns, and energetic color palette designed to capture attention and drive event attendance.",
+      "Creative flyer and social media design for MenuCard, a digital ordering solution for restaurants. Combines bold typography, engaging visuals, and structured layouts to highlight customer benefits, reduce wait times, and improve ordering experience.",
   },
   {
     text: "Web Design",
     image: "/assets/portfolio2.png",
+    link: "https://www.behance.net/gallery/234440949/E-commerce-Website-Landing-Page",
     description:
-      "Modern e-commerce website design featuring intuitive navigation, category browsing, and promotional banners. Clean interface showcasing 'Unbeatable Deals, Endless Choices' with product displays and user-friendly shopping experience optimized for conversions.",
+      "Professional e-commerce website design for TradeWay featuring sleek layouts, category filtering, and modern UI. Emphasizes promotional banners, product showcases, and an intuitive shopping flow to deliver a seamless online retail experience.",
   },
   {
     text: "Product Design",
     image: "/assets/portfolio3.png",
+    link: "https://www.behance.net/gallery/230043783/Social-media-design",
     description:
-      "Sleek UI design for SendNow chat application featuring a clean chat interface, contact list sidebar, and intuitive messaging system. Focused on delivering instant, secure communication with modern design principles and smooth user interactions.",
+      "Striking product design concept for Blunt Wireless Bluetooth Speaker. Features a sleek, modern presentation with emphasis on product highlights like 'Bass Boost Technology' and 'True Wireless Freedom', using dark tones and glowing typography for high visual impact.",
   },
   {
     text: "Landing Page",
     image: "/assets/portfolio4.png",
+    link: "https://www.behance.net/gallery/234506757/Kweezly-Landing-Page",
     description:
-      "Engaging landing page design introducing SendNow's instant and secure chat platform. Features compelling hero section, clear value proposition, and modern glassmorphism effects that capture attention while communicating the product's core benefits effectively.",
+      "High-conversion landing page design for Kweezly platform. Showcases streamlined layouts, feature highlights, and a clear call-to-action. Incorporates bold typography, clean visual hierarchy, and engaging UI to communicate value and boost user sign-ups.",
   },
 ];
 
